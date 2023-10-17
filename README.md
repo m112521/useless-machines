@@ -11,4 +11,6 @@ TBD:
 
 ![MLA](imgs/MLA.jpg)
 
-![CNC](imgs/MLA.jpg)
+![CNC](imgs/cnc-shield.jpg)
+
+![Simulation](imgs/gh-sim.gif)
