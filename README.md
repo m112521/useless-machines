@@ -8,6 +8,8 @@ TBD:
 - [x] Modular linear axes (MLA)
 - [x] MLA XY+ assembly
 - [ ] TCP to point2D using OpenCV
+- [ ] Gh Machine Generator
+- [ ] Gh SyncSim 
 
 
 ![MLA](imgs/MLA.jpg)
