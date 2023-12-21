@@ -4,12 +4,12 @@ TBD:
 - [x] Gh collision simulation
 - [x] Gh non-planar -> Gcode
 - [ ] Gh C# plugin -> GRBL
-- [ ] RPi Pyserial to GRBL  
+- [x] RPi Pyserial to GRBL  
 - [x] Modular linear axes (MLA)
 - [x] MLA XY+ assembly
-- [ ] TCP to point2D using OpenCV
+- [x] TCP to point2D using OpenCV
 - [ ] Gh Machine Generator
-- [ ] Gh SyncSim 
+- [ ] Gh SyncSim WS
 
 
 ![MLA](imgs/MLA.jpg)
