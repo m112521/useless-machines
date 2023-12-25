@@ -51,3 +51,60 @@ s.write(str.encode('G1X100.1235Y100.1235F400' + '\n'))
 s.close()    
 
 ```
+
+
+WS stream grbl status:
+
+```python
+import serial
+import time
+from fastapi import FastAPI, Response, WebSocket
+from fastapi.middleware.cors import CORSMiddleware
+import cv_grbl_aruco as cnc
+
+origins = ["*"]
+app = FastAPI()
+app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"],)
+
+cnc.home_machine()
+cnc.draw_x(120, 90, 5)
+
+m_pos = 0
+#@app.on_event('startup')
+#def init_data():
+#    pass
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    global m_pose
+    global cnc
+    await websocket.accept()
+    try:
+        while True:
+            data = await websocket.receive_text()
+            m_pos = cnc.get_machine_position()
+            await websocket.send_text(f"{m_pos}")
+            #if m_pose is not None:
+            #    await websocket.send_text(f"Machine position: {m_pose}")
+            #else:
+            #    await websocket.send_text(f"Machine position: none")
+    except Exception as e:
+        print(e)
+##ser.reset_input_buffer()
+
+
+#cnc.home_machine()
+#origin_px, top_right_pt, point_px = cnc.get_markers()
+#if origin_px is not None:
+    #px_per_mm = cnc.calc_px_per_mm(origin_px, top_right_pt, cnc.MARKER_SIZE_MM)
+    #draw_x(120, 90, 5)
+    #cnc.move_machine(point_px, origin_px, px_per_mm)
+#else:
+    #print("No markers found")
+
+#input("  Press <Enter> to exit and disable grbl.")
+
+# close serial
+#cnc.s.close()
+
+```
