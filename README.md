@@ -10,6 +10,7 @@ TBD:
 - [x] TCP to point2D using OpenCV
 - [ ] Gh Machine Generator
 - [ ] Gh SyncSim WS
+- [ ] Basement, camera holder and enclosings for electronics
 - [ ] Doc Git
 - [ ] Web/PDF WP
 
