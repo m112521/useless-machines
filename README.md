@@ -10,6 +10,8 @@ TBD:
 - [x] TCP to point2D using OpenCV
 - [ ] Gh Machine Generator
 - [ ] Gh SyncSim WS
+- [ ] Doc Git
+- [ ] Web/PDF WP
 
 
 ![MLA](imgs/MLA.jpg)
