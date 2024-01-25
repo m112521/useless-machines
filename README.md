@@ -13,13 +13,18 @@ TBD:
 - [ ] Basement, camera holder and enclosings for electronics
 - [ ] Doc Git
 - [ ] Web/PDF WP
-
+https://docs.google.com/document/d/1zGq897flr5F2EenAS7bOPgM9schD1iEFRFdtpmhVqJQ/edit
 
 ![MLA](imgs/MLA.jpg)
 
 ![CNC](imgs/cnc-shield.jpg)
 
 ![Simulation](imgs/gh-sim.gif)
+
+CNC Shield/GRBL config:
+
+1. CNC Shield Jumpers
+2. GRBL spindle speed
 
 
 PySerial to GRBL:
