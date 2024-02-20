@@ -1,15 +1,19 @@
-G21
-G90
+G21 ; millimeters
+G90 ; absolute coordinate
+G17 ; XY plane
+G94 ; units per minute feed rate mode
+M3 S50; Turning on spindle
 
-G0 X5.000 Y5.000
-M3 S500
 
-F1200
-G1 X50.000 Y100.000
-G1 X100.000 Y100.000
-G1 X100.000 Y50.000
-G1 X50.000 Y50.000
-G1 X50.000 Y100.000
+; Go to zero location
+G0 X0 Y0
 
-G0 X0.000 Y0.000
-M2 ;program end
+; Create rectangle
+G1 X0 Y0 F1000
+G1 Y10
+G1 X10
+G1 Y0
+G1 X0
+
+; Turning off spindle
+M5
