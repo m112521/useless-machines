@@ -1,13 +1,12 @@
 # Useless Machines WP
 
-> Useless Machines is a ... but has no  purpose (some random course by MIT)
+> A useless machine is a device which has a function but no direct purpose (a guy from MIT)
 
-Heavily inspared by Nadya Peek's Modular MAchines and those guys from GitHub (I took pulley and rack from them)
+Heavily inspired by Nadya Peek's Modular Machines and those guys from GitHub (I took the pulley and the rack from them)
 
 TBD:
 - [x] Gh collision simulation
 - [x] Gh non-planar -> Gcode
-- [ ] Gh C# plugin -> GRBL
 - [x] RPi Pyserial to GRBL  
 - [x] Modular linear axes (MLA)
 - [x] MLA XY+ assembly
@@ -18,7 +17,9 @@ TBD:
 - [ ] Doc Git
 - [ ] Web/PDF WP
 - [ ] Dremel Z -> PCBTraceGenerator.gh
-- [ ] p5.js lib -> draw and gcode stream
+- [ ] p5.js/three.js client -> draw and gcode stream
+
+
 https://docs.google.com/document/d/1zGq897flr5F2EenAS7bOPgM9schD1iEFRFdtpmhVqJQ/edit
 
 ![MLA](imgs/MLA.jpg)
