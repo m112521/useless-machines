@@ -6,19 +6,41 @@ Heavily inspared by Nadya Peek's Modular MAchines and those guys from GitHub (I 
 
 TBD:
 - [x] Gh collision simulation
-- [x] Gh non-planar -> Gcode
-- [ ] Gh C# plugin -> GRBL
 - [x] RPi Pyserial to GRBL  
 - [x] Modular linear axes (MLA)
 - [x] MLA XY+ assembly
 - [x] TCP to point2D using OpenCV
-- [ ] Gh Machine Generator
 - [x] Gh SyncSim WS
+
 - [ ] Basement/table w adaptive height, camera holder and enclosings for electronics
-- [ ] Doc Git
+- [ ] PCBTraceGenerator.gh  -> G-code
+
+- [ ] fix tool holder
+- [ ] Add endstop hole
+- [ ] Make carrige shorter in T/H-bot B Flat
+- [ ] Make axis supports fastanable to axis and to the floor
+- [ ] Redesign for T/H bot A/B Edged
+- [ ] Add holes to axis for support fastening
+- [ ] Gh Machine Generator
+- [ ] Yong's modulus for 12, 18 plywood
+
+- [ ] Wiring for H-bot (2xY)
+ 
+
+Functionality check:
+- [ ] Gh non-planar milling -> Gcode
+- [ ] CV weaving 
+- [ ] CV vacuum pick'n'place
 - [ ] Web/PDF WP
-- [ ] Dremel Z -> PCBTraceGenerator.gh
+- [ ] PenHolder draw numerical portriaits
+
+
+
+Optional:
 - [ ] p5.js lib -> draw and gcode stream
+- [ ] Gh C# plugin -> GRBL
+
+
 https://docs.google.com/document/d/1zGq897flr5F2EenAS7bOPgM9schD1iEFRFdtpmhVqJQ/edit
 
 ![MLA](imgs/MLA.jpg)
