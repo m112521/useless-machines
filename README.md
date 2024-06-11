@@ -5,6 +5,22 @@
 Heavily inspired by Nadya Peek's Modular Machines and those guys from GitHub (I took the pulley and the rack from them)
 
 TBD:
+- [ ] Enclosings for electronics: arduino laser cut plexiglass (+12V fan?)
+- [ ] Basement for the whole machine
+- [ ] Adaptive table
+- [ ] Calib Z via Camera
+- [ ] PCBTraceGenerator.gh  -> G-code
+- [ ] PCB ESP32 MotorShield
+- [ ] Basement/table w adaptive height, camera holder
+- [ ] Edged axis support + edged axis holder
+- [ ] Wiring and test for H-bot (2xY)
+- [ ] Gh Machine Generator with Young's modulus calculator
+- [ ] Gh non-planar milling (polystyrene) -> Gcode
+- [ ] Poopirka
+- [ ] Printable KIT with brims + CV(arucoQR, bridge, RPiholder) + box(?)
+- [ ] Knowledge graph: from abstraction to details
+
+
 - [x] Gh collision simulation
 - [x] RPi Pyserial to GRBL  
 - [x] Modular linear axes (MLA)
@@ -12,25 +28,14 @@ TBD:
 - [x] TCP to point2D using OpenCV
 - [x] Gh SyncSim WS
 
-- [ ] Basement/table w adaptive height, camera holder and enclosings for electronics
-- [ ] PCBTraceGenerator.gh  -> G-code
+- [x] fix tool holder
+- [x] Add endstop hole
+- [x] Make axis supports fastanable to axis and to the floor
+- [x] Yong's modulus for 12, 18 plywood
 
-- [ ] fix tool holder
-- [ ] Add endstop hole
-- [ ] Make carrige shorter in T/H-bot B Flat
-- [ ] Make axis supports fastanable to axis and to the floor
-- [ ] Redesign for T/H bot A/B Edged
-- [ ] Add holes to axis for support fastening
-- [ ] Gh Machine Generator
-- [ ] Yong's modulus for 12, 18 plywood
-
-- [ ] Wiring for H-bot (2xY)
- 
 
 Functionality check:
-- [ ] Gh non-planar milling -> Gcode
 - [ ] CV weaving 
-- [ ] CV vacuum pick'n'place
 - [ ] Web/PDF WP
 - [ ] Dremel Z -> PCBTraceGenerator.gh
 - [ ] p5.js lib -> draw and gcode stream
