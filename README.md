@@ -5,7 +5,9 @@
 Heavily inspired by Nadya Peek's Modular Machines and those guys from GitHub (I took the pulley and the rack from them)
 
 TBD:
-- [ ] Enclosings for electronics: arduino laser cut plexiglass (+12V fan?)
+- [ ] wires enclosing
+- [ ] insert threads for table screwable (резьбовые заклепки)
+- [ ] Enclosings for electronics
 - [ ] Basement for the whole machine
 - [ ] Adaptive table
 - [ ] Calib Z via Camera
