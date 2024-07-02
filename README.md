@@ -6,19 +6,17 @@ Heavily inspired by Nadya Peek's Modular Machines and those guys from GitHub (I 
 
 TBD:
 - [ ] wires enclosing
-- [ ] insert threads for table screwable (резьбовые заклепки)
-- [ ] Enclosings for electronics
+- [ ] insert m3 epoxy for table screwable
 - [ ] Basement for the whole machine
-- [ ] Adaptive table
 - [ ] Calib Z via Camera
 - [ ] PCBTraceGenerator.gh  -> G-code
-- [ ] PCB ESP32 MotorShield
-- [ ] Basement/table w adaptive height, camera holder
-- [ ] Edged axis support + edged axis holder
-- [ ] Wiring and test for H-bot (2xY)
-- [ ] Gh Machine Generator with Young's modulus calculator
+
+- [ ] PCB ESP32 MotorShield milling test
 - [ ] Gh non-planar milling (polystyrene) -> Gcode
+- [ ] Gh Machine Generator with Young's modulus calculator
 - [ ] Poopirka
+
+- [ ] Wiring and test for H-bot (2xY)
 - [ ] Printable KIT with brims + CV(arucoQR, bridge, RPiholder) + box(?)
 - [ ] Knowledge graph: from abstraction to details
 
