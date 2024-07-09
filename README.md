@@ -41,10 +41,6 @@ Functionality check:
 - [ ] p5.js lib -> draw and gcode stream
 https://docs.google.com/document/d/1zGq897flr5F2EenAS7bOPgM9schD1iEFRFdtpmhVqJQ/edit
 
-![MLA](imgs/MLA.jpg)
-
-![CNC](imgs/cnc-shield.jpg)
-
 ![Simulation](imgs/gh-sim.gif)
 
 CNC Shield/GRBL config:
