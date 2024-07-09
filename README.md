@@ -139,3 +139,79 @@ async def websocket_endpoint(websocket: WebSocket):
 #cnc.s.close()
 
 ```
+
+-------------------------------------
+
+Instructions:
+
+
+Carrige 1:
+
+https://github.com/m112521/useless-machines/assets/85460283/1d898f0c-5cae-43d9-b15b-1ca97f9952e6
+
+Carrige 2:
+
+https://github.com/m112521/useless-machines/assets/85460283/568b16e4-cb6c-4cd2-8910-7a5e2f30e3df
+
+
+Carrige 3:
+
+https://github.com/m112521/useless-machines/assets/85460283/dc9f5c50-31b6-4a93-bcf2-43fd21f10367
+
+
+Carrige 4:
+
+https://github.com/m112521/useless-machines/assets/85460283/1df0a3c2-96c0-4288-9bb8-245eb9bfb2f2
+
+
+Rail: 
+
+https://github.com/m112521/useless-machines/assets/85460283/70a19164-39d7-4d2d-80c0-af41929da47c
+
+
+Axis X-1:
+
+https://github.com/m112521/useless-machines/assets/85460283/7156194f-57ff-49da-a9d0-40450719a380
+
+
+Axis X-2:
+
+https://github.com/m112521/useless-machines/assets/85460283/d27853ad-4865-437f-8faa-c0686a177267
+
+
+
+Axis X-endstop:
+
+https://github.com/m112521/useless-machines/assets/85460283/16b9a3ca-a30e-440b-8486-f2dd495ec5e4
+
+
+Axis XV-support:
+
+https://github.com/m112521/useless-machines/assets/85460283/c26f3623-e518-4918-be77-d1f35b5745ff
+
+
+Wheel-X:
+
+https://github.com/m112521/useless-machines/assets/85460283/9568cd56-e5c2-4810-b618-4dbb1be0e70f
+
+
+Carrige VY-holderVX
+
+https://github.com/m112521/useless-machines/assets/85460283/4576e473-dfea-46f0-a778-e4fb95ce2ffa
+
+
+Assembly VY-VX:
+
+https://github.com/m112521/useless-machines/assets/85460283/b02ba156-daf3-4695-9696-71cce22d752f
+
+
+Assembly-VX-FOR-HY:
+
+https://github.com/m112521/useless-machines/assets/85460283/e208e78f-c716-4a84-b4d4-77ff1d42ef49
+
+
+Assembly-VXHY:
+
+https://github.com/m112521/useless-machines/assets/85460283/3cd34c90-32d5-4921-98f5-b61b05a48a90
+
+
