@@ -9,7 +9,7 @@ TBD:
 - [ ] insert m3 epoxy for table screwable
 - [ ] Basement for the whole machine
 - [ ] Calib Z via Camera
-- [ ] PCBTraceGenerator.gh  -> G-code
+- [ ] PCBTraceGenerator.gh  ->  [RhinoCAM](https://mecsoft.com/PostProcessors/MILL/GRBL-MM.spm) G-code
 
 - [ ] PCB ESP32 MotorShield milling test
 - [ ] Gh non-planar milling (polystyrene) -> Gcode
